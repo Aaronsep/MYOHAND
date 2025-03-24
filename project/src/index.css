@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+video {
+  /*filter: brightness(3) saturate(1);*/
+}
