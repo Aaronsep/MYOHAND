@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Python trash files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
