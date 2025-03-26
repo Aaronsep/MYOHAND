@@ -1,39 +1,41 @@
 # MYOHAND
 
-Sistema de predicción de movimientos de una prótesis robótica de mano utilizando un brazalete Myo y una red neuronal LSTM entrenada con señales EMG.
+## Descripción en Español
 
-## Autor
+Sistema impulsado por inteligencia artificial para controlar una mano protésica robótica mediante señales EMG de un brazalete Myo. Utiliza redes neuronales LSTM para la predicción de gestos en tiempo real e incluye una interfaz gráfica en Node.js para mejorar la interacción del usuario. Desarrollado con la librería MyoPyO.
+
+### Autor
 
 **Nombre:** Aaron Homero Sepúlveda Salcedo  
 **Correo:** ahs.mechatronic.eng@gmail.com  
 **Fecha:** Marzo 2025  
 **Versión:** 1.0
 
-## Descripción General
+### Descripción General del Proyecto
 
-Este proyecto consiste en un sistema de control para una prótesis de mano que interpreta señales EMG recolectadas desde un brazalete Myo. Las señales son procesadas y utilizadas para entrenar una red neuronal con capas LSTM, permitiendo predecir en tiempo real los movimientos del usuario.
+Este proyecto es un sistema de control para una mano protésica robótica que interpreta señales EMG captadas por un brazalete Myo. Estas señales se procesan y se introducen en una red neuronal basada en LSTM para predecir gestos de la mano en tiempo real.
 
-También se desarrolló una interfaz gráfica en Node.js para visualizar y controlar la ejecución del sistema, facilitando la interacción del usuario con el modelo y los dispositivos conectados.
+Una interfaz gráfica desarrollada en Node.js permite a los usuarios operar y monitorear el sistema de manera sencilla.
 
-## Estructura del Proyecto
+### Estructura del Proyecto
 
-- `project/` - Contiene scripts principales para entrenamiento, prueba y ejecución en tiempo real.
-- `pyomyo/` - Módulo para la interfaz con el brazalete Myo.
-- `MyoDataset.csv` - Dataset de entrenamiento (si se requiere alojar externamente, mover este archivo).
-- `modelo_LSTM.keras` - Modelo entrenado.
-- `model_metadata.json` - Información sobre el modelo.
-- `requirements.txt` - Dependencias necesarias para ejecutar el proyecto.
-- `interface/` - (Si aplica) Contiene los archivos del frontend hecho en Node.js.
+- `project/` - Scripts en Python para entrenamiento, prueba y predicción en tiempo real.
+- `pyomyo/` - Librería de interfaz con el brazalete Myo.
+- `MyoDataset.csv` - Conjunto de datos EMG para entrenamiento.
+- `modelo_LSTM.keras` - Archivo del modelo entrenado.
+- `model_metadata.json` - Metadatos del modelo.
+- `requirements.txt` - Dependencias de Python.
+- `interface/` - Interfaz gráfica en Node.js.
 
-## Instalación
+### Instalación
 
-1. Clona este repositorio:
+1. Clona el repositorio:
    ```bash
    git clone https://github.com/Aaronsep/MYOHAND.git
    cd MYOHAND
    ```
 
-2. Crea un entorno virtual (opcional pero recomendado):
+2. (Opcional) Crea un entorno virtual:
    ```bash
    python -m venv venv
    source venv/bin/activate  # En Windows: venv\Scripts\activate
@@ -44,31 +46,108 @@ También se desarrolló una interfaz gráfica en Node.js para visualizar y contr
    pip install -r requirements.txt
    ```
 
-4. Para ejecutar la interfaz (si se incluye):
+4. Para iniciar la interfaz:
    ```bash
    cd interface
    npm install
    npm start
    ```
 
-## Uso
+### Uso
 
-### 1. Entrenamiento del modelo
-Ejecuta el script correspondiente dentro de `project/` para entrenar el modelo con las señales EMG.
+1. **Entrenamiento del Modelo**  
+   Ejecuta el script correspondiente dentro de la carpeta `project/`.
 
-### 2. Prueba del modelo
-Utiliza los scripts de prueba para validar el rendimiento del modelo con nuevos datos.
+2. **Prueba del Modelo**  
+   Usa los scripts de prueba para validar el rendimiento del modelo con nuevos datos.
 
-### 3. Predicción en tiempo real
-Conecta el brazalete Myo y corre el script de predicción en tiempo real (`RealTimeTestv2.py`).
+3. **Predicción en Tiempo Real**  
+   Conecta el brazalete Myo y ejecuta `RealTimeTestv2.py`.
 
-### 4. Interfaz Node.js
-Usa la interfaz web desarrollada en Node.js para ejecutar y visualizar los resultados del modelo de forma intuitiva.
+4. **Interfaz Node.js**  
+   Usa la interfaz para operar el sistema fácilmente.
 
-## Licencia
+### Licencia
 
-Este proyecto no cuenta con una licencia pública aún. Si deseas utilizarlo, contacta al autor.
+Este proyecto aún no tiene una licencia pública. Contacta al autor para solicitar permisos.
 
-## Contribuciones
+### Contribuciones
 
-Las contribuciones son bienvenidas. Por favor, abre un *issue* o envía un *pull request*.
+Las contribuciones son bienvenidas. Abre un issue o envía un pull request.
+
+---
+
+## English Description
+
+AI-powered system for controlling a robotic prosthetic hand using EMG signals from a Myo armband. It leverages LSTM neural networks for real-time gesture prediction and includes a Node.js graphical interface for enhanced user interaction. Built with the MyoPyO library.
+
+### Author
+
+**Name:** Aaron Homero Sepúlveda Salcedo  
+**Email:** ahs.mechatronic.eng@gmail.com  
+**Date:** March 2025  
+**Version:** 1.0
+
+### Project Overview
+
+This project is a control system for a robotic prosthetic hand that interprets EMG signals captured by a Myo armband. These signals are processed and fed into an LSTM-based neural network to predict hand gestures in real time.
+
+A graphical user interface developed in Node.js allows users to easily operate and monitor the system.
+
+### Project Structure
+
+- `project/` - Python scripts for training, testing, and real-time prediction.
+- `pyomyo/` - Myo armband interface library.
+- `MyoDataset.csv` - EMG dataset for training.
+- `modelo_LSTM.keras` - Trained model file.
+- `model_metadata.json` - Model metadata.
+- `requirements.txt` - Python dependencies.
+- `interface/` - Node.js graphical interface.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Aaronsep/MYOHAND.git
+   cd MYOHAND
+   ```
+
+2. (Optional) Create a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. To launch the interface:
+   ```bash
+   cd interface
+   npm install
+   npm start
+   ```
+
+### Usage
+
+1. **Model Training**  
+   Run the training script inside the `project/` folder.
+
+2. **Model Testing**  
+   Use the testing scripts to validate model performance on new data.
+
+3. **Real-Time Prediction**  
+   Connect the Myo armband and run `RealTimeTestv2.py`.
+
+4. **Node.js Interface**  
+   Use the interface to operate the system easily.
+
+### License
+
+This project is not yet licensed. Contact the author for permissions.
+
+### Contributions
+
+Contributions are welcome. Open an issue or submit a pull request.
