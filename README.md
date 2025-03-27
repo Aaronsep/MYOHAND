@@ -4,10 +4,10 @@
 
 Sistema impulsado por inteligencia artificial para controlar una mano protésica robótica mediante señales EMG de un brazalete Myo. Utiliza redes neuronales LSTM para la predicción de gestos en tiempo real e incluye una interfaz gráfica en Node.js para mejorar la interacción del usuario. Desarrollado con la librería MyoPyO.
 
-### Autor
+### Autores
 
-**Nombre:** Aaron Homero Sepúlveda Salcedo  
-**Correo:** ahs.mechatronic.eng@gmail.com  
+**Nombres:** Aaron Homero Sepúlveda Salcedo, Jesus Alejandro Ocegueda Melin, Fernando Vidal Luna Jaime & Oxcel Alejandro Galvan Rendon
+**Correos:** ahs.mechatronic.eng@gmail.com & Oceguedaalejandro12@gmail.com
 **Fecha:** Marzo 2025  
 **Versión:** 1.0
 
