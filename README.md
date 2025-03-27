@@ -7,7 +7,7 @@ Sistema impulsado por inteligencia artificial para controlar una mano protésica
 ### Autores
 
 **Nombres:** Aaron Homero Sepúlveda Salcedo, Jesus Alejandro Ocegueda Melin, Fernando Vidal Luna Jaime & Oxcel Alejandro Galvan Rendon
-**Correos:** ahs.mechatronic.eng@gmail.com & Oceguedaalejandro12@gmail.com 
+**Correos:** ahs.mechatronic.eng@gmail.com & Oceguedaalejandro12@gmail.com <br>
 **Fecha:** Marzo 2025  
 **Versión:** 1.0
 
@@ -81,10 +81,10 @@ Las contribuciones son bienvenidas. Abre un issue o envía un pull request.
 
 AI-powered system for controlling a robotic prosthetic hand using EMG signals from a Myo armband. It leverages LSTM neural networks for real-time gesture prediction and includes a Node.js graphical interface for enhanced user interaction. Built with the MyoPyO library.
 
-### Author
+### Authors
 
-**Name:** Aaron Homero Sepúlveda Salcedo  
-**Email:** ahs.mechatronic.eng@gmail.com  
+**Names:** Aaron Homero Sepúlveda Salcedo, Jesus Alejandro Ocegueda Melin, Fernando Vidal Luna Jaime & Oxcel Alejandro Galvan Rendon
+**Emails:** ahs.mechatronic.eng@gmail.com & Oceguedaalejandro12@gmail.com <br>
 **Date:** March 2025  
 **Version:** 1.0
 
