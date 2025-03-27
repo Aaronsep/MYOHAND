@@ -7,8 +7,7 @@ Sistema impulsado por inteligencia artificial para controlar una mano protésica
 ### Autores
 
 **Nombres:** Aaron Homero Sepúlveda Salcedo, Jesus Alejandro Ocegueda Melin, Fernando Vidal Luna Jaime & Oxcel Alejandro Galvan Rendon
-**Correos:** ahs.mechatronic.eng@gmail.com & Oceguedaalejandro12@gmail.com
-
+**Correos:** ahs.mechatronic.eng@gmail.com & Oceguedaalejandro12@gmail.com //
 **Fecha:** Marzo 2025  
 **Versión:** 1.0
 
