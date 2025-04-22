@@ -78,7 +78,7 @@ El archivo `firebaseconnect3.py`, ubicado en la Raspberry Pi, es el encargado de
 Para iniciar el sistema en la Raspberry Pi, ejecuta:
 
 ```bash
-python3 /home/ITESO/apps/PAP/firebaseconnect3.py
+python3 /home/USUARIO/firebaseconnect3.py
 ```
 
 Este archivo debe estar corriendo en todo momento para que el sistema funcione correctamente.
@@ -172,7 +172,7 @@ The file `firebaseconnect3.py`, located on the Raspberry Pi, is responsible for:
 To start the system on the Raspberry Pi, run:
 
 ```bash
-python3 /home/ITESO/apps/PAP/firebaseconnect3.py
+python3 /home/USER/firebaseconnect3.py
 ```
 
 This file must be running at all times for the system to function properly.
