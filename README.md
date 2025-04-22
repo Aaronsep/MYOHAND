@@ -67,6 +67,23 @@ Una interfaz gráfica desarrollada en Node.js permite a los usuarios operar y mo
 4. **Interfaz Node.js**  
    Usa la interfaz para operar el sistema fácilmente.
 
+
+### 🔧 Ejecución en Raspberry Pi
+
+El archivo `firebaseconnect3.py`, ubicado en la Raspberry Pi, es el encargado de:
+
+- Leer los datos de movimiento desde Firebase.  
+- Controlar la lógica de movimiento del carrito en tiempo real.
+
+Para iniciar el sistema en la Raspberry Pi, ejecuta:
+
+```bash
+python3 /home/ITESO/apps/PAP/firebaseconnect3.py
+```
+
+Este archivo debe estar corriendo en todo momento para que el sistema funcione correctamente.
+
+
 ### Licencia
 
 Este proyecto aún no tiene una licencia pública. Contacta al autor para solicitar permisos.
@@ -143,6 +160,23 @@ A graphical user interface developed in Node.js allows users to easily operate a
 
 4. **Node.js Interface**  
    Use the interface to operate the system easily.
+
+
+### 🔧 Raspberry Pi Execution
+
+The file `firebaseconnect3.py`, located on the Raspberry Pi, is responsible for:
+
+- Reading movement data from Firebase.  
+- Managing the cart's real-time motion logic.
+
+To start the system on the Raspberry Pi, run:
+
+```bash
+python3 /home/ITESO/apps/PAP/firebaseconnect3.py
+```
+
+This file must be running at all times for the system to function properly.
+
 
 ### License
 
