@@ -48,9 +48,9 @@ Una interfaz gráfica desarrollada en Node.js permite a los usuarios operar y mo
 
 4. Para iniciar la interfaz:
    ```bash
-   cd interface
+   cd project
    npm install
-   npm start
+   npm start dev
    ```
 
 ### Uso
