@@ -125,9 +125,9 @@ A graphical user interface developed in Node.js allows users to easily operate a
 
 4. To launch the interface:
    ```bash
-   cd interface
+   cd project
    npm install
-   npm start
+   npm start dev
    ```
 
 ### Usage
